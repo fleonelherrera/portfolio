@@ -1,0 +1,31 @@
+:root {
+    --negro: #0d1321;
+    --azul-oscuro: #1d2d44;
+    --azul: #3e5c76;
+    --azul-claro: #748cab;
+    --fuente: #f0ebd8;
+}
+
+
+.footer {
+    width: 100vw;
+    height: 85px;
+    background-color: var(--negro);
+    color: var(--fuente);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 2.5em;
+}
+
+.link-social-media {
+    color: var(--fuente);
+}

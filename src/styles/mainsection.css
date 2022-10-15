@@ -14,8 +14,8 @@
 }
 
 .main-section {
-    width: 90vw;
-    height: 80vh;
+    width: 85vw;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,4 +43,20 @@
 .pic-main-section img {
     border-radius: 3px;
     border: 2px solid var(--fuente);
+}
+
+.ver-cv {
+    display: block;
+    background-color: var(--azul-oscuro);
+    color: var(--fuente);
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin: 15px 5px;
+    border: 1px solid var(--fuente);
+}
+
+.ver-cv:hover {
+    color: var(--negro);
+    background-color: var(--fuente);
 }

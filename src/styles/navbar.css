@@ -8,7 +8,7 @@
 
 .header {
     width: 100%;
-    height: 90px;
+    height: 85px;
     background-color: var(--negro);
     display: flex;
     align-items: center;
@@ -60,7 +60,7 @@
     }
     .nav-bar {
         position: absolute;
-        top: 90px;
+        top: 85px;
         left: 0;
         right: 0;
         width: 100vw;

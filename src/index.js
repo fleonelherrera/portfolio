@@ -7,7 +7,7 @@ import AboutMe from './pages/AboutMe';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 
-import './index.css';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
