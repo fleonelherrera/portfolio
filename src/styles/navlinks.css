@@ -1,0 +1,19 @@
+.nav-links {
+    display: block;
+    color: var(--fuente);
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin: 0 5px;
+}
+
+.nav-links:hover {
+    color: var(--negro);
+    background-color: var(--fuente);
+}
+
+@media (max-width: 900px) {
+    .nav-links {
+        margin-bottom: 12px;
+    }
+}
