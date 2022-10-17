@@ -1,7 +1,7 @@
 import React from 'react';
 
 import NavBar from '../components/NavBar';
-
+import Footer from '../components/Footer';
 
 const Contact = () => {
     return (
@@ -12,13 +12,16 @@ const Contact = () => {
 
                 <section className="container">
                     <article className="main-section">
-                        {/* <img src={profilePicture3} alt="Foto de perfil" className='pic-main-section'/> */}
                         <h1>¡Ups!</h1>
                         <h2>En construcción</h2>
                     </article>
                 </section>
 
             </main>
+
+            <footer>
+                <Footer />
+            </footer>
         </div>
     );
 }

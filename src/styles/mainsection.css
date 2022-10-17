@@ -40,11 +40,6 @@
     margin: 1em;
 }
 
-.pic-main-section img {
-    border-radius: 3px;
-    border: 2px solid var(--fuente);
-}
-
 .ver-cv {
     display: block;
     background-color: var(--azul-oscuro);

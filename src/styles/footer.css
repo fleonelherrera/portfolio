@@ -29,3 +29,19 @@
 .link-social-media {
     color: var(--fuente);
 }
+
+.linkedin:hover {
+    color: #0077B5;
+}
+
+.whatsapp:hover {
+    color: #25D366;
+}
+
+.gmail:hover {
+    color: white;
+}
+
+.github:hover {
+    color: #07527a;
+}

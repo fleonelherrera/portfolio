@@ -1,8 +1,7 @@
 import React from 'react';
 
 import NavBar from '../components/NavBar';
-
-//import './aboutme.css';
+import Footer from '../components/Footer';
 
 function Projects() {
     return (
@@ -19,6 +18,10 @@ function Projects() {
                 </section>
 
             </main>
+
+            <footer>
+                <Footer />
+            </footer>
 
 
 
