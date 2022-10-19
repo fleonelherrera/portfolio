@@ -27,7 +27,6 @@ const NavBar = () => {
                         <NavLinks title='INICIO' route='/'/>
                         <NavLinks title='SOBRE MI' route='/aboutme'/>
                         <NavLinks title='PROYECTOS' route='/projects'/>
-                        <NavLinks title='CONTACTO' route='/contact'/>
                     </ul>
                 </nav>
             </header>

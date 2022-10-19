@@ -5,7 +5,6 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import App from './App';
 import AboutMe from './pages/AboutMe';
 import Projects from './pages/Projects';
-import Contact from './pages/Contact';
 
 
 
@@ -19,7 +18,6 @@ root.render(
         <Route exact path='/' element={<App />}/>
         <Route exact path='/aboutme' element={<AboutMe />}/>
         <Route exact path='/projects' element={<Projects />}/>
-        <Route exact path='/contact' element={<Contact />}/>
       </Routes>
 
     </BrowserRouter>

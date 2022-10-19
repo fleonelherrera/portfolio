@@ -9,13 +9,16 @@
 
 .footer {
     width: 100vw;
-    height: 85px;
+    height: 10vh;
     background-color: var(--negro);
     color: var(--fuente);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    /*Para que este fijo en la parte inferior*/
+    /* position: absolute;
+    bottom: 0; */
 }
 
 .social-media {

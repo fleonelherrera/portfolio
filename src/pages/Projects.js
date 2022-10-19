@@ -3,17 +3,17 @@ import React from 'react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 
-function Projects() {
+const Projects = () => {
     return (
-        <div className="App">
+        <div>
             <NavBar />
 
             <main role='main'>
 
                 <section className="container">
                     <article className="main-section">
-                        <h1>¡Ups!</h1>
-                        <h2>En construcción</h2>
+                        <h1>Esto tampoco</h1>
+                        <h2>😡😡</h2>
                     </article>
                 </section>
 
@@ -22,9 +22,6 @@ function Projects() {
             <footer>
                 <Footer />
             </footer>
-
-
-
         </div>
     );
 }
