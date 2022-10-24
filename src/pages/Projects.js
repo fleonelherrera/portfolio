@@ -12,8 +12,7 @@ const Projects = () => {
 
                 <section className="container">
                     <article className="main-section">
-                        <h1>Esto tampoco</h1>
-                        <h2>😡😡</h2>
+                        <h1>En construcción ⚒</h1>
                     </article>
                 </section>
 
