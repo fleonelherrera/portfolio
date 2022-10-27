@@ -56,3 +56,89 @@
         font-size: 70px;
     }
 }
+
+@media (max-width: 1630px) {
+    .img-projects {
+        width: 17em;
+    }
+    
+    .title-projects {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .main-container-projects {
+        height: 95vh;
+    }
+    .projects-section {
+        width: 85vw;
+        height: 95vh;
+    }
+    .img-projects {
+        width: 15em;
+    }
+    .title-projects {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .img-projects {
+        width: 12em;
+    }
+    .title-projects {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 912px) {
+    .img-projects {
+        width: 18em;
+    }
+    .title-projects {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 768px) {
+    .img-projects {
+        width: 13em;
+    }
+    .title-projects {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 540px) {
+    .img-projects {
+        display: none;
+    }
+    .title-projects {
+        font-size: 23px;
+        margin: 1em;
+    }
+}
+
+@media (max-width: 414px) {
+    .title-projects {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 375px) {
+    .main-container-projects {
+        height: 99vh;
+    }
+    .projects-section {
+        width: 85vw;
+        height: 99vh;
+    }
+    .title-projects {
+        font-size: 21px;
+        margin: 0.5em;
+    }
+    .container-projects {
+        gap: 0.5em;
+    }
+}
