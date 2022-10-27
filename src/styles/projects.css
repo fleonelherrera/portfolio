@@ -142,3 +142,16 @@
         gap: 0.5em;
     }
 }
+
+@media (max-width: 280px) {
+    .main-container-projects {
+        height: 100vh;
+    }
+    .projects-section {
+        width: 85vw;
+        height: 100vh;
+    }
+    .title-projects {
+        font-size: 20px;
+    }
+}
