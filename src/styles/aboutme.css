@@ -45,7 +45,7 @@
 
 /*CONTENEDOR DE LA IMAGEN*/
 .container-img-aboutme img {
-    width: 23em;
+    width: 22em;
 }
 /*------------------------------*/
 
@@ -127,6 +127,36 @@
     background-color: var(--fuente);
 }
 
+@media (min-width: 2560px) {
+    .container-img-aboutme img {
+        width: 37em;
+    }
+    .aboutme-section h1 {
+        font-size: 60px;
+    }
+    .aboutme-section p {
+        font-size: 30px;
+    }
+    .skills-container h2{
+        font-size: 45px;
+    }
+    .skills-list-container {
+        grid-template-columns: repeat(3, 250px);
+        grid-template-rows: 90px 90px 90px;
+        margin: 3em;
+    }
+    .skill-container {
+        width: 190px;
+        height: 90px;
+        padding: 15px;
+        font-size: 28px;
+    }
+    .link-aboutme {
+        font-size: 32px;
+        padding: 20px 25px;
+        margin: 15px;
+    }
+}
 
 @media (max-width: 1630px) {
     .container-img-aboutme img {
@@ -148,22 +178,22 @@
         width: 18em;
     }
     .aboutme-section h1 {
-        font-size: 43px;
+        font-size: 40px;
     }
     .aboutme-section p {
-        font-size: 17px;
+        font-size: 16px;
     }
     .skills-container h2{
         font-size: 27px;
     }
     .skill-container {
         width: 115px;
-        height: 50px;
+        height: 45px;
         padding: 10px;
         font-size: 16px;
     }
     .skills-list-container {
-        grid-template-rows: 60px 60px 60px;
+        grid-template-rows: 40px 40px 40px;
     }
 }
 

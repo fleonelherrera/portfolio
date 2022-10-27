@@ -30,7 +30,11 @@
     display: flex;
 }
 
-
+@media (min-width: 2560px) {
+    .logo {
+        font-size: 48px;
+    }
+}
 
 
 

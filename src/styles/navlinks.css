@@ -12,6 +12,12 @@
     background-color: var(--fuente);
 }
 
+@media (min-width: 2560px) {
+    .nav-links {
+        font-size: 32px;
+    }
+}
+
 @media (max-width: 900px) {
     .nav-links {
         margin-bottom: 12px;
