@@ -176,3 +176,15 @@
         font-size: 20px;
     }
 }
+
+@media (max-width: 375px) and (max-height: 520px) {
+    .main-container-projects {
+        height: 140vh;
+    }
+    .projects-section {
+        height: 140vh;
+    }
+    .title-projects {
+        font-size: 23px;
+    }
+}
