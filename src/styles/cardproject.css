@@ -7,189 +7,193 @@
 }
 
 .container-card {
-    width: 350px;
+    position: relative;
+    width: 300px;
     height: 350px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: var(--negro);
-    border-radius: 10px;
-    border: 2px solid var(--fuente);
-    text-align: center;
+    box-shadow: 0 30px 30px rgba(0,0,0,.3);
+    border-radius: 5px;
+}
+
+.container-card .card-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container-card .card-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.container-card:hover .card-img img {
+    opacity: 0;
+}
+
+.container-card .info-card {
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    width: 80%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.363);
+    color: var(--fuente);
+    transition: 0.5s;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.container-card:hover .info-card {
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 5px;
+}
+
+.container-card .info-card h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
     color: var(--fuente);
 }
 
-.container-card h1 {
-    font-size: 21px;
+.container-card .info-card p {
+    margin: 10px 5px;
+    padding: 0;
+    display: none;
+    transition: 0.5s;
 }
 
-.container-card p {
-    font-size: 14px;
-    margin-bottom: 0.5em;
+.container-card:hover .info-card p {
+    display: block;
 }
 
-.container-card:hover {
-    background-color: var(--fuente);
+
+.container-card .info-card a {
+    display: none;
+}
+
+.container-card:hover .info-card a {
+    width: 80%;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 1em auto;
     color: var(--negro);
-    border: 2px solid var(--negro);
+    background-color: var(--fuente);
+    transition: 0.5s;
+    border-radius: 3px;
 }
 
-.img-card {
-    width: 13em;
-    margin: 0.5em;
-}
+
+
 
 @media (min-width: 2560px) {
     .container-card {
-        width: 400px;
-        height: 450px;
-    }
-    .container-card h1 {
-        font-size: 28px;
-    }
-    
-    .container-card p {
-        font-size: 22px;
-    }
-    .img-card {
-        width: 15em;
-        margin: 1em;
+        width: 350px;
+        height: 400px;
     }
 }
 
 @media (max-width: 1630px) {
     .container-card {
-        width: 300px;
+        width: 250px;
         height: 300px;
     }
-    .img-card {
-        width: 12em;
+    .container-card .info-card h1 {
+        font-size: 16.5px;
+    }
+    .container-card .info-card p {
+        font-size: 14px;
+    }
+    .container-card:hover .info-card a {
+        width: 70%;
+        font-size: 14px;
     }
 }
 
 @media (max-width: 1280px) {
     .container-card {
-        width: 290px;
-        height: 280px;
-    }
-    .img-card {
-        width: 11em;
-    }
-    .container-card h1 {
-        font-size: 19px;
+        width: 250px;
+        height: 300px;
     }
 }
 
 @media (max-width: 1024px) {
     .container-card {
         width: 250px;
-        height: 250px;
+        height: 240px;
     }
-    .img-card {
-        width: 10em;
-    }
-    .container-card h1 {
-        font-size: 18px;
-    }
-    .container-card p {
-        font-size: 12px;
+    .container-card:hover .info-card a {
+        width: 65%;
+        font-size: 13px;
     }
 }
 
-@media (max-width: 912px) {
-    .container-card {
-        width: 300px;
-        height: 350px;
-    }
-    .img-card {
-        width: 13em;
-    }
-    .container-card h1 {
-        font-size: 24px;
-    }
-    .container-card p {
-        font-size: 17px;
-    }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 720px) and (max-height: 540px) {
     .container-card {
         width: 250px;
-        height: 300px;
+        height: 200px;
     }
-    .img-card {
-        width: 11em;
+    .container-card .info-card h1 {
+        font-size: 14px;
     }
-    .container-card h1 {
-        font-size: 18px;
+    .container-card .info-card p {
+        font-size: 11px;
     }
-    .container-card p {
-        font-size: 13px;
+    .container-card:hover .info-card a {
+        width: 50%;
+        font-size: 11px;
     }
 }
 
 @media (max-width: 540px) {
     .container-card {
-        width: 200px;
-        height: 250px;
+        width: 190px;
+        height: 240px;
     }
-    .img-card {
-        width: 9em;
+    .container-card .info-card h1 {
+        font-size: 15px;
     }
-    .container-card h1 {
-        font-size: 16px;
+    .container-card .info-card p {
+        font-size: 12px;
     }
-    .container-card p {
-        font-size: 11px;
+    .container-card:hover .info-card a {
+        width: 55%;
+        font-size: 12px;
     }
 }
 
 @media (max-width: 414px) {
     .container-card {
         width: 270px;
-        height: 200px;
-    }
-    .img-card {
-        width: 9em;
-    }
-    .container-card h1 {
-        font-size: 15px;
-    }
-    .container-card p {
-        font-size: 11px;
+        height: 210px;
     }
 }
 
 @media (max-width: 375px) {
     .container-card {
-        width: 280px;
-        height: 165px;
-    }
-    .img-card {
-        width: 8em;
-    }
-    .container-card h1 {
-        font-size: 15px;
-    }
-    .container-card p {
-        font-size: 9px;
-    }
-}
-
-@media (max-width: 280px) {
-    .container-card {
         width: 220px;
-        height: 165px;
+        height: 160px;
     }
-    .img-card {
-        width: 7em;
+    .container-card .info-card h1 {
+        font-size: 14px;
     }
-    .container-card h1 {
-        font-size: 12.5px;
+    .container-card .info-card p {
+        font-size: 12px;
     }
-    .container-card p {
-        font-size: 9px;
+    .container-card:hover .info-card a {
+        font-size: 12px;
+        display: inline;
+        margin: 1em;
     }
 }

@@ -5,11 +5,20 @@ const CardProject = (props) => {
     let {title, img, description} = props
     return (
         <div>
-            <a href='#' target='_blank' rel='noreferrer noopener' className='container-card'>
-                <h1>{title}</h1>
-                <img src={img} alt="Captura de la página de inicio del proyecto" className='img-card'/>
-                <p>{description}</p>
-            </a>
+            <div className='container-card'>
+                <div className='card-img'>
+                    <img src={img} alt="Miniatura del proyecto seleccionado"/>
+                </div>
+
+                <div className='info-card'>
+                    <h1>{title}</h1>
+                    <p>{description}</p>
+
+                    <a href='#' target='_blank' rel='noreferrer noopener'>DEMO</a>
+                    <a href='#' target='_blank' rel='noreferrer noopener'>REPO</a>
+                </div>
+
+            </div>
         </div>
     );
 }

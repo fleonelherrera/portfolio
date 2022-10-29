@@ -75,6 +75,7 @@
     }
     .nav-bar.active {
         height: 400px;
+        z-index: 1;
     }
     .nav-bar ul {
         display: block;
