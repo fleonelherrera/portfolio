@@ -206,3 +206,34 @@
         margin: 0.5em;
     }
 }
+
+
+@media (max-height: 570px) {
+    .title-projects {
+        font-size: 20px;
+    }
+    .main-container-projects {
+        height: 170vh;
+    }
+    .projects-section {
+        height: 170vh;
+    }
+}
+
+@media (max-height: 530px) {
+    .main-container-projects {
+        height: 180vh;
+    }
+    .projects-section {
+        height: 180vh;
+    }
+}
+
+@media (max-height: 500px) {
+    .main-container-projects {
+        height: 190vh;
+    }
+    .projects-section {
+        height: 190vh;
+    }
+}
