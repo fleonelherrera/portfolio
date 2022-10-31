@@ -223,26 +223,3 @@
         font-size: 13px;
     }
 }
-
-@media (max-width: 667px) and (max-height: 375px) {
-    .container-card {
-        width: 200px;
-        height: 250px;
-    }
-    .container-card .info-card h1 {
-        font-size: 13.5px;
-    }
-    .container-card .info-card p {
-        font-size: 14px;
-    }
-    .container-card:hover .info-card a {
-        width: 60%;
-        font-size: 12px;
-    }
-}
-
-/*QUERYS ESPECIALES*/
-
-@media (max-height: 580px) {
-    
-}
