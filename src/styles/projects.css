@@ -3,12 +3,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 90vh;
+    height: 100vh;
 }
 
 .projects-section {
     width: 85vw;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,10 +20,9 @@
     border-radius: 5px;
 }
 
-
-
 .img-projects {
-    width: 19em;
+    width: 18em;
+    margin: 1em;
 }
 
 .title-projects {
@@ -39,44 +38,38 @@
     gap: 1em;
 }
 
+
+/* QUERYS */
 @media (min-width: 2560px) {
     .main-container-projects {
         height: 80vh;
     }
-    
     .projects-section {
         width: 85vw;
         height: 75vh;
     }
     .img-projects {
         width: 27em;
+        margin: 2em;
     }
-    
     .title-projects {
         font-size: 70px;
     }
 }
 
 @media (max-width: 1630px) {
-    .img-projects {
-        width: 17em;
-    }
-    
-    .title-projects {
-        font-size: 38px;
-    }
+    /* SIN CAMBIOS */
 }
 
 @media (max-width: 1280px) {
     .main-container-projects {
-        height: 95vh;
+        height: 110vh;
     }
     .projects-section {
-        width: 85vw;
-        height: 95vh;
+        height: 110vh;
     }
     .img-projects {
-        width: 14em;
+        width: 15em;
     }
     .title-projects {
         font-size: 34px;
@@ -84,107 +77,132 @@
 }
 
 @media (max-width: 1024px) {
+    .main-container-projects {
+        height: 130vh;
+    }
+    .projects-section {
+        height: 130vh;
+    }
     .img-projects {
-        width: 12em;
-    }
-    .title-projects {
-        font-size: 26px;
-    }
-}
-
-@media (max-width: 912px) {
-    .img-projects {
-        width: 17em;
-    }
-    .title-projects {
-        font-size: 45px;
-    }
-}
-
-@media (max-width: 768px) {
-    .img-projects {
-        width: 13em;
+        width: 14em;
     }
     .title-projects {
         font-size: 30px;
     }
 }
 
-@media (max-width: 720px) and (max-height: 540px) {
-    .img-projects {
-        display: none;
-    }
+@media (max-width: 912px) {
     .main-container-projects {
-        height: 99vh;
+        height: 80vh;
     }
     .projects-section {
-        height: 99vh;
+        height: 80vh;
     }
-    .container-projects {
-    gap: 0.5em;
+    .img-projects {
+        width: 18em;
     }
     .title-projects {
-        font-size: 26px;
-        margin-bottom: 0.5em;
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-container-projects {
+        height: 110vh;
+    }
+    .projects-section {
+        height: 110vh;
+    }
+    .img-projects {
+        width: 16em;
+    }
+}
+
+@media (max-width: 720px) {
+    .main-container-projects {
+        height: 180vh;
+    }
+    .projects-section {
+        height: 180vh;
+    }
+    .img-projects {
+        width: 13.5em;
+    }
+    .title-projects {
+        font-size: 27px;
     }
 }
 
 @media (max-width: 540px) {
-    .img-projects {
-        display: none;
+    .main-container-projects {
+        height: 140vh;
     }
-    .title-projects {
-        font-size: 23px;
-        margin: 1em;
+    .projects-section {
+        height: 140vh;
     }
 }
 
 @media (max-width: 414px) {
-    .title-projects {
-        font-size: 21px;
+    .main-container-projects {
+        height: 120vh;
     }
-    .container-projects {
-        gap: 0.5em;
+    .projects-section {
+        height: 120vh;
+    }
+    .img-projects {
+        display: none;
+    }
+    .title-projects {
+        font-size: 25px;
+        margin: 0.5em;
     }
 }
 
 @media (max-width: 375px) {
     .main-container-projects {
-        height: 99vh;
+        height: 160vh;
     }
     .projects-section {
-        height: 99vh;
+        height: 160vh;
+    }
+    .img-projects {
+        display: none;
     }
     .title-projects {
-        font-size: 20px;
-        margin: 0.5em;
-    }
-    .container-projects {
-        gap: 0.5em;
+        font-size: 23px;
     }
 }
 
 @media (max-width: 280px) {
-    .main-container-projects {
-        height: 100vh;
-    }
-    .projects-section {
-        width: 85vw;
-        height: 100vh;
-    }
     .title-projects {
-        font-size: 20px;
+        font-size: 21px;
     }
 }
 
-@media (max-width: 375px) and (max-height: 520px) {
+/*QUERYS PARA CELULARES EN HORIZONTAL*/
+@media (max-width: 896px) and (max-height: 414px) {
     .main-container-projects {
         height: 140vh;
     }
     .projects-section {
         height: 140vh;
     }
+    .img-projects {
+        display: none;
+    }
     .title-projects {
-        font-size: 23px;
+        font-size: 24px;
+        margin: 1em;
+    }
+}
+
+
+@media (max-width: 667px) and (max-height: 375px) {
+    .img-projects {
+        display: none;
+    }
+    .title-projects {
+        font-size: 21px;
+        margin: 0.5em;
     }
 }
