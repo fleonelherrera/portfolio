@@ -160,17 +160,17 @@
 
 @media (max-width: 375px) {
     .main-container-projects {
-        height: 160vh;
+        height: 145vh;
     }
     .projects-section {
-        height: 160vh;
+        height: 145vh;
     }
     .img-projects {
         display: none;
     }
     .title-projects {
         font-size: 20px;
-        margin: 0.5em;
+        margin: 0.3em;
     }
 }
 

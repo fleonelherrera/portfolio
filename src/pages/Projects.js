@@ -7,7 +7,7 @@ import CardProject from '../components/CardProject';
 import '../styles/projects.css'
 
 import profilePicture1 from '../assets/profile-picture1.png'
-import enConstruccion from '../assets/en-construccion.jpg'
+import enConstruccion from '../assets/proyecto-en-desarrollo.png'
 
 
 const Projects = () => {
