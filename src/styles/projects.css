@@ -13,7 +13,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--azul);
+    background-color: var(--azul-oscuro);
     color: var(--fuente);
     margin: 2em;
     border: 2px solid var(--fuente);
@@ -160,17 +160,17 @@
 
 @media (max-width: 375px) {
     .main-container-projects {
-        height: 145vh;
+        height: 140vh;
     }
     .projects-section {
-        height: 145vh;
+        height: 140vh;
     }
     .img-projects {
         display: none;
     }
     .title-projects {
         font-size: 20px;
-        margin: 0.3em;
+        margin: 0.5em;
     }
 }
 

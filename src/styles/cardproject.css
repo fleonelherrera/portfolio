@@ -175,7 +175,7 @@
 @media (max-width: 375px) {
     .container-card {
         width: 190px;
-        height: 250px;
+        height: 220px;
     }
     .container-card .info-card h1 {
         font-size: 12px;
