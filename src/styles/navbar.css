@@ -9,7 +9,7 @@
 .header {
     width: 100%;
     height: 10vh;
-    background-color: var(--azul-oscuro);
+    background-color: var(--negro);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -69,7 +69,7 @@
         right: 0;
         width: 100vw;
         height: 0;
-        background-color: var(--azul-oscuro);
+        background-color: var(--negro);
         transition: 0.5s;
         overflow: hidden;
     }
