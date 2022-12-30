@@ -8,6 +8,7 @@ import '../styles/projects.css'
 
 import profilePicture1 from '../assets/profile-picture1.png'
 import enConstruccion from '../assets/proyecto-en-desarrollo.png'
+import moviesProject from '../assets/miniatura-proyecto-peliculas.png'
 
 
 const Projects = () => {
@@ -23,9 +24,11 @@ const Projects = () => {
                         <img src={profilePicture1} alt="Foto de perfil" className='img-projects'/>
                         <div className='container-projects'>
                             <CardProject
-                                title='Carrito de compras'
-                                img={enConstruccion}
-                                description='Pequeño e-commerce que cuenta con un Registro/Login y la posibilidad de añadir productos al carrito.'
+                                title='Películas populares'
+                                img={moviesProject}
+                                description='Página no responsive que consume la API de The Movie DB y muestra las películas más populares de manera actualizada.'
+                                linkDemo = 'https://peliculas-populares.vercel.app/'
+                                linkRepo = 'https://github.com/fleonelherrera/peliculas-mas-populares'
                             />
                             <CardProject
                                 title='Ricardo y Mortardo'
