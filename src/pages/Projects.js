@@ -26,19 +26,19 @@ const Projects = () => {
                             <CardProject
                                 title='Películas populares'
                                 img={moviesProject}
-                                description='Página no responsive que consume la API de The Movie DB y muestra las películas más populares de manera actualizada.'
+                                description='Página web que consume la API de The Movie DB y muestra las películas más populares de manera actualizada.'
                                 linkDemo = 'https://peliculas-populares.vercel.app/'
                                 linkRepo = 'https://github.com/fleonelherrera/peliculas-mas-populares'
                             />
                             <CardProject
-                                title='Ricardo y Mortardo'
+                                title='Lista de artículos'
                                 img={enConstruccion}
-                                description='Página que consume datos de la API de Rick And Morty.'
+                                description='Página web en la que se pueden guardar, editar y eliminar artículos de una base de datos. Realizada con Node (express), MongoDB y Handlebars.'
                             />
                             <CardProject
-                                title='Chat Online'
+                                title='Sin título'
                                 img={enConstruccion}
-                                description='Chat online utilizando Socket IO.'
+                                description='Sin descripción.'
                             />
                         </div>
                     </article>
