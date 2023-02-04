@@ -9,6 +9,7 @@ import '../styles/projects.css'
 import profilePicture1 from '../assets/profile-picture1.png'
 import enConstruccion from '../assets/proyecto-en-desarrollo.png'
 import moviesProject from '../assets/miniatura-proyecto-peliculas.png'
+import productsListProject from '../assets/miniatura-lista-articulos.png'
 
 
 const Projects = () => {
@@ -32,8 +33,10 @@ const Projects = () => {
                             />
                             <CardProject
                                 title='Lista de artículos'
-                                img={enConstruccion}
+                                img={productsListProject}
                                 description='Página web en la que se pueden guardar, editar y eliminar artículos de una base de datos. Realizada con Node (express), MongoDB y Handlebars.'
+                                linkDemo = 'https://lista-articulos.up.railway.app/'
+                                linkRepo = 'https://github.com/fleonelherrera/lista-articulos'
                             />
                             <CardProject
                                 title='Sin título'
