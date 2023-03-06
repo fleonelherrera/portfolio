@@ -18,7 +18,7 @@ function AboutMe() {
                     <div className='container-main-content'>
                         <div className='container-info'>
                             <h1>¡Hola!</h1>
-                            <p>Soy Franco, tengo 22 años, soy de Buenos Aires y estoy en búsqueda de mi primera experiencia dentro del rubro IT. Actualmente estoy cursando el primer año de la Tecnicatura en Programación en la UNQ. Además, acabo de finalizar un curso de Desarrollo Web Fullstack en Educación IT. Accedí a esta capacitación gracias a una beca que me otorgaron Fundación Pescar y JP Morgan. Por otro lado, formé parte del programa digit@lers, de Telecom, en el que aprendí Desarrollo Web con .Net.</p>
+                            <p>Soy Franco, tengo 22 años, soy de Buenos Aires y estoy en búsqueda de mi primera experiencia dentro del rubro IT. Actualmente estoy cursando el segundo año de la Tecnicatura en Programación en la UNQ. Además, acabo de finalizar un curso de Desarrollo Web Fullstack en Educación IT. Accedí a esta capacitación gracias a una beca que me otorgaron Fundación Pescar y JP Morgan. Por otro lado, formé parte del programa digit@lers, de Telecom, en el que aprendí Desarrollo Web con .Net.</p>
                         </div>
                         <div className='skills-container'>
                             <h2>Habilidades</h2>
@@ -30,7 +30,7 @@ function AboutMe() {
                                 <div className='skill-container'>Node JS</div>
                                 <div className='skill-container'>.Net</div>
                                 <div className='skill-container'>MongoDB</div>
-                                <div className='skill-container'>MySQL</div>
+                                <div className='skill-container'>SQL</div>
                                 <div className='skill-container'>GIT</div>
                             </div>
                         </div>

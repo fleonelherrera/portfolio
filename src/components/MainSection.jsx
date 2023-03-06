@@ -11,7 +11,7 @@ const MainSection = () => {
                     <img src={profilePicture3} alt="Foto de perfil" className='pic-main-section'/>
                     <h1>Franco Leonel Herrera</h1>
                     <h2>Desarrollador Backend 🖥️</h2>
-                    <a href='https://drive.google.com/file/d/1jBl_zeIc1IiPMe9QUOHEdF5MqLKsJzR6/view?usp=sharing' target='_blank' rel='noreferrer noopener' className='ver-cv'>Mi CV</a>
+                    <a href='https://drive.google.com/file/d/1rSTVOpNe4TEoTS-s16iV0ZyDGFU-uicx/view?usp=sharing' target='_blank' rel='noreferrer noopener' className='ver-cv'>Mi CV</a>
                 </article>
             </section>
         </div>
