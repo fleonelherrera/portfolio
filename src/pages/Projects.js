@@ -7,9 +7,12 @@ import CardProject from '../components/CardProject';
 import '../styles/projects.css'
 
 import profilePicture1 from '../assets/profile-picture1.png'
-import enConstruccion from '../assets/proyecto-en-desarrollo.png'
+
 import moviesProject from '../assets/miniatura-proyecto-peliculas.png'
 import productsListProject from '../assets/miniatura-lista-articulos.png'
+import toDoProject from '../assets/miniatura-todoapp.png'
+
+//import enConstruccion from '../assets/proyecto-en-desarrollo.png'
 
 
 const Projects = () => {
@@ -39,9 +42,11 @@ const Projects = () => {
                                 linkRepo = 'https://github.com/fleonelherrera/lista-articulos'
                             />
                             <CardProject
-                                title='Sin título'
-                                img={enConstruccion}
-                                description='Sin descripción.'
+                                title='Lista de tareas'
+                                img={toDoProject}
+                                description='Página web realizada con React en la que se pueden listar tareas para hacer, se las puede marcar como realizadas y se cuenta con un contador de tareas pendientes.'
+                                linkDemo = 'https://to-do-list-woad-one.vercel.app/'
+                                linkRepo = 'https://github.com/fleonelherrera/to-do-list'
                             />
                         </div>
                     </article>
